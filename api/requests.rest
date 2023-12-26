@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{    
+    "text" : "Big B"
+}
+
+### 
+
+DELETE http://localhost:3001/todo/delete/65834dac26c8f3d371b8e266
+
+###
+
+PUT http://localhost:3001/todo/complete/6583514d1f2f550a2a39fc07
